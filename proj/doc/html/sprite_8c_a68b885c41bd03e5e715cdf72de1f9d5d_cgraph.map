@@ -1,0 +1,5 @@
+<map id="draw_hs_time" name="draw_hs_time">
+<area shape="rect" id="node1" title="Draws the highscore time on the background buffer." alt="" coords="5,5,108,32"/>
+<area shape="rect" id="node2" href="$sprite_8c.html#a432d4502a05a1025f30948e4dbcd88b2" title="Draws an xpm according to some parameters." alt="" coords="156,5,237,32"/>
+<area shape="rect" id="node3" href="$video_8c.html#ac4898edce27b7b51b297128384e113be" title="//Function which draws one pixel on the screen with the desired color, in the desired buffer" alt="" coords="285,5,368,32"/>
+</map>

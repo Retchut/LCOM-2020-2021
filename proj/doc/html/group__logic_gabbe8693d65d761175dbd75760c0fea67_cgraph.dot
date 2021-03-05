@@ -1,0 +1,18 @@
+digraph "reset_gamestate"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="reset_gamestate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Function that resets the game at the start of a new round."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="destroy_all_projectiles",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__logic.html#ga73e46dd719da8627bba53a3779545255",tooltip="Destroys ALL projectiles, both the player's and the enemies'."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="destroy_enemy_projectile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__logic.html#ga5097d393ba2a86415f75072aeafa9388",tooltip="Destroys one enemy projectile object."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="destroy_player_projectile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__logic.html#ga01406d4043226eaa8b6fdeb9cea292ef",tooltip="Destroys one player projectile object."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="generate_enemies",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__logic.html#gab6633ecc352d296a27e6b975043c86bf",tooltip="Initializes the enemy array, with the correct values for each object."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="create_enemy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__logic.html#gaeaa48a43dfc8592a47c63e08de926ef1",tooltip="Creates an enemy object based on some parameters, dinamically alocating memory, and returns a pointer..."];
+}

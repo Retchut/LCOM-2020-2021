@@ -1,0 +1,4 @@
+<map id="can_write_to_ctrl_reg" name="can_write_to_ctrl_reg">
+<area shape="rect" id="node1" title="Evaluates whether or not we can write a command to the kbc control register." alt="" coords="5,5,151,32"/>
+<area shape="rect" id="node2" href="$group__utils.html#ga79a031a8611f5b2d6afa4158e92b0fb4" title="Invokes sys_inb() system call but reads the value into a uint8_t variable." alt="" coords="199,5,289,32"/>
+</map>

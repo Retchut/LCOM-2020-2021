@@ -1,0 +1,17 @@
+digraph "draw_menu_elements"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="draw_menu_elements",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Draws the menu elements on the double buffer."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="copy_from_background",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$video_8c.html#aa10a93096da9f1f757aca38328a738ce",tooltip="Copies the background buffer's contents into the double buffer."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="draw_cursor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sprite_8c.html#ac5279c7b71c8b9f1b5c69316b3996715",tooltip="Draws the cursor on the buffer used for double buffering."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="draw_xpm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sprite_8c.html#a432d4502a05a1025f30948e4dbcd88b2",tooltip="Draws an xpm according to some parameters."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="draw_pixel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$video_8c.html#ac4898edce27b7b51b297128384e113be",tooltip="//Function which draws one pixel on the screen with the desired color, in the desired buffer"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,6 @@
+<map id="generate_player" name="generate_player">
+<area shape="rect" id="node1" title="Generates the player object, with the correct values." alt="" coords="523,5,637,32"/>
+<area shape="rect" id="node2" href="$group__logic.html#ga1e44ab470fef095c47ff7df0eecda7ae" title="Generates all game objects to be used by the game." alt="" coords="315,5,475,32"/>
+<area shape="rect" id="node3" href="$group__game.html#ga54f6009c04f24fed4f917e0e34893212" title="Prepares the game." alt="" coords="163,5,267,32"/>
+<area shape="rect" id="node4" href="$proj_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,5,115,32"/>
+</map>

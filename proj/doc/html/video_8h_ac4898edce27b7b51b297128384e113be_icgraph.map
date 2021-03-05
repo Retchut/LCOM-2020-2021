@@ -1,0 +1,34 @@
+<map id="draw_pixel" name="draw_pixel">
+<area shape="rect" id="node1" title="//Function which draws one pixel on the screen with the desired color, in the desired buffer" alt="" coords="1351,360,1433,387"/>
+<area shape="rect" id="node2" href="$sprite_8h.html#afc9432e73a9ed57e9e356605107661a8" title="Draws all projectiles on the screen on the buffer used for double buffering." alt="" coords="1035,5,1149,32"/>
+<area shape="rect" id="node7" href="$sprite_8h.html#a108aef5762b92301e2d4ce88027edb9a" title="Draws an xpm according to some parameters." alt="" coords="1221,385,1303,412"/>
+<area shape="rect" id="node3" href="$sprite_8h.html#acfafa3060615cd19b63f120800dc4075" title="Function which copies the background buffer contents to the double buffer, then draws all other objec..." alt="" coords="609,183,746,209"/>
+<area shape="rect" id="node4" href="$group__game.html#gabc9e0c89439f64104e8d4327028355d1" title="Core gameplay loop." alt="" coords="199,233,285,260"/>
+<area shape="rect" id="node6" href="$group__game.html#gaa75c9d43139b8a434e578814a98d59a0" title="Function which readies the game for a new round." alt="" coords="411,183,495,209"/>
+<area shape="rect" id="node5" href="$proj_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,487,115,513"/>
+<area shape="rect" id="node8" href="$sprite_8h.html#a17df74fc56592ea32ba9897729a7b090" title="Draws each enemy on the buffer used for double buffering." alt="" coords="828,157,953,184"/>
+<area shape="rect" id="node9" href="$sprite_8h.html#a37d1cf38342a34072658d27bef62cd1b" title="Draws the number of ammunition the player has." alt="" coords="1046,208,1138,235"/>
+<area shape="rect" id="node11" href="$sprite_8h.html#ac5279c7b71c8b9f1b5c69316b3996715" title="Draws the cursor on the buffer used for double buffering." alt="" coords="845,360,937,387"/>
+<area shape="rect" id="node12" href="$sprite_8h.html#afd7981c8544caa64d14e2aed014840b1" title="Draws the menu elements on the double buffer." alt="" coords="603,411,751,437"/>
+<area shape="rect" id="node15" href="$sprite_8h.html#aa2ef3a2bfed75c17c56cf872ef4aad57" title="Draws the game background on the background buffer." alt="" coords="1011,461,1173,488"/>
+<area shape="rect" id="node17" href="$sprite_8h.html#ab860f4d0de8b51748e40d579c48e31dc" title="Draws the highscore background on the background buffer." alt="" coords="584,512,771,539"/>
+<area shape="rect" id="node19" href="$sprite_8h.html#ad494b8ee69e0aef00320005935fedeb1" title="Draws the number of hp the player has." alt="" coords="1057,259,1127,285"/>
+<area shape="rect" id="node20" href="$sprite_8h.html#a09b46973bae08863f288cde6bdb6e7bc" title="Draws a highscore name on the background buffer." alt="" coords="1037,563,1147,589"/>
+<area shape="rect" id="node22" href="$sprite_8h.html#a72d10af255c271fa6dfb67f32db16539" title="Draws the highscore score on the background buffer." alt="" coords="1037,613,1147,640"/>
+<area shape="rect" id="node23" href="$sprite_8h.html#a68b885c41bd03e5e715cdf72de1f9d5d" title="Draws the highscore time on the background buffer." alt="" coords="1041,664,1143,691"/>
+<area shape="rect" id="node24" href="$sprite_8h.html#aa89cd8bc0c4fdd050097c033495989df" title="Draws the menu background on the background buffer." alt="" coords="1011,715,1173,741"/>
+<area shape="rect" id="node26" href="$sprite_8h.html#a65000727898c8c9c6980969973e82213" title="Draws the new highscore screen on the background buffer." alt="" coords="1021,766,1163,807"/>
+<area shape="rect" id="node28" href="$group__highscore.html#ga45bec8d688b782490a7c8dd218d29ce6" title="Draws the name the player is editing on the double buffer." alt="" coords="1033,832,1151,859"/>
+<area shape="rect" id="node30" href="$sprite_8h.html#ad3691991b3af52e1fbf2b67ed919e920" title="Draws the player on the buffer used for double buffering." alt="" coords="845,81,936,108"/>
+<area shape="rect" id="node31" href="$sprite_8h.html#abacc35b08c33459ead447cb06d4afe1d" title="Draws the number of points the player has." alt="" coords="1047,309,1137,336"/>
+<area shape="rect" id="node32" href="$sprite_8h.html#a48c90844a3cc28d10ebca5a4f10e65ff" title="Draws the special enemy on the double buffer." alt="" coords="1043,157,1141,184"/>
+<area shape="rect" id="node10" href="$sprite_8h.html#aec01f7936176a3356635ef01f3e85da5" title="Draws all ui elements of points the player has." alt="" coords="857,233,924,260"/>
+<area shape="rect" id="node14" href="$group__highscore.html#ga81c8da21606141d6fa9ab8ba339d2e9d" title="Menu loop." alt="" coords="603,360,751,387"/>
+<area shape="rect" id="node13" href="$group__menu.html#ga2948469e49121c2d7d00c5253807723d" title="Menu loop." alt="" coords="410,411,495,437"/>
+<area shape="rect" id="node16" href="$group__game.html#ga54f6009c04f24fed4f917e0e34893212" title="Prepares the game." alt="" coords="190,461,294,488"/>
+<area shape="rect" id="node18" href="$highscore_8c.html#af2a9268e3705ab4d2bb5fbb6b8c409fa" title=" " alt="" coords="369,512,536,539"/>
+<area shape="rect" id="node21" href="$sprite_8h.html#a783d013e6c9f448ba5a7fff78fdf0edf" title="Draws the highscore data on the background buffer." alt="" coords="819,567,963,593"/>
+<area shape="rect" id="node25" href="$group__menu.html#ga98e1e6e350ea10b0f235bec0f0c1ed4e" title="Prepares the menu." alt="" coords="190,575,294,601"/>
+<area shape="rect" id="node27" href="$group__highscore.html#gafa817da540f040d451b9103c245454af" title="Prepares the new_highscore screen." alt="" coords="163,651,321,677"/>
+<area shape="rect" id="node29" href="$group__highscore.html#ga91fd736c399b051bdda3624b04ce58f3" title="Draws the non&#45;static new highscore menu images." alt="" coords="383,769,522,796"/>
+</map>

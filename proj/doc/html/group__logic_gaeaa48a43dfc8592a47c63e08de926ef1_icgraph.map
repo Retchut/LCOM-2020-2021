@@ -1,0 +1,10 @@
+<map id="create_enemy" name="create_enemy">
+<area shape="rect" id="node1" title="Creates an enemy object based on some parameters, dinamically alocating memory, and returns a pointer..." alt="" coords="831,31,935,57"/>
+<area shape="rect" id="node2" href="$group__logic.html#gab6633ecc352d296a27e6b975043c86bf" title="Initializes the enemy array, with the correct values for each object." alt="" coords="655,31,783,57"/>
+<area shape="rect" id="node3" href="$group__logic.html#ga1e44ab470fef095c47ff7df0eecda7ae" title="Generates all game objects to be used by the game." alt="" coords="447,5,607,32"/>
+<area shape="rect" id="node6" href="$group__logic.html#gabbe8693d65d761175dbd75760c0fea67" title="Function that resets the game at the start of a new round." alt="" coords="467,56,586,83"/>
+<area shape="rect" id="node4" href="$group__game.html#ga54f6009c04f24fed4f917e0e34893212" title="Prepares the game." alt="" coords="163,5,267,32"/>
+<area shape="rect" id="node5" href="$proj_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,31,115,57"/>
+<area shape="rect" id="node7" href="$group__game.html#gaa75c9d43139b8a434e578814a98d59a0" title="Function which readies the game for a new round." alt="" coords="315,56,399,83"/>
+<area shape="rect" id="node8" href="$group__game.html#gabc9e0c89439f64104e8d4327028355d1" title="Core gameplay loop." alt="" coords="172,56,257,83"/>
+</map>

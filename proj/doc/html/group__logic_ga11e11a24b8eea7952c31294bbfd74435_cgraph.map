@@ -1,0 +1,6 @@
+<map id="shoot" name="shoot">
+<area shape="rect" id="node1" title="Shoots towards the current cursor positions." alt="" coords="5,5,60,32"/>
+<area shape="rect" id="node2" href="$group__logic.html#ga101db24846cb41f73876ebf34ea0b791" title="Creates a Player_projectile object, and adds it to player_projectiles." alt="" coords="108,5,252,32"/>
+<area shape="rect" id="node3" href="$logic_8c.html#ac441ef521d53011e6bcfc87dbc2d7d4d" title=" " alt="" coords="300,5,459,32"/>
+<area shape="rect" id="node4" href="$group__logic.html#ga085bf19daa3d4c04caef2c3190e140fa" title="Generates the Player_projectile&#39;s array of points." alt="" coords="507,5,680,32"/>
+</map>

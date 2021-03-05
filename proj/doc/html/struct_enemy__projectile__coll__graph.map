@@ -1,0 +1,4 @@
+<map id="Enemy_projectile" name="Enemy_projectile">
+<area shape="rect" id="node1" title="Struct that holds a player projectile&#39;s data." alt="" coords="5,95,128,121"/>
+<area shape="rect" id="node2" href="$struct_image.html" title="Struct that holds an image&#39;s information and color map." alt="" coords="38,5,95,32"/>
+</map>

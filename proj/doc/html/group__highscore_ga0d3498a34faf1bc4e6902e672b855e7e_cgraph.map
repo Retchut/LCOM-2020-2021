@@ -1,0 +1,4 @@
+<map id="load_highscores" name="load_highscores">
+<area shape="rect" id="node1" title="Loads the highscores from the highscores.txt file." alt="" coords="5,5,121,32"/>
+<area shape="rect" id="node2" href="$group__highscore.html#ga68bcd699ea6291c2abb5f16692835ff1" title="Sorts the highscores using a simple bubble sort algorithm." alt="" coords="169,5,284,32"/>
+</map>

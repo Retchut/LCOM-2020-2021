@@ -1,0 +1,26 @@
+digraph "destroy_enemy_projectile"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="destroy_enemy_projectile",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Destroys one enemy projectile object."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="destroy_all_projectiles",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__logic.html#ga73e46dd719da8627bba53a3779545255",tooltip="Destroys ALL projectiles, both the player's and the enemies'."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="destroy_all_game_entities",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__logic.html#gad30a209e666eb1154ca7b1a3e6f90b49",tooltip="Destroys ALL game entities, and frees their memory."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="end_game",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__game.html#ga4202fa5c5191c7e387d7570da6c8cd8c",tooltip="Ends the game."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="proj_main_loop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$proj_8c.html#a2a16f651eccbd248e1ad3b3b924b143b",tooltip=" "];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="reset_gamestate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__logic.html#gabbe8693d65d761175dbd75760c0fea67",tooltip="Function that resets the game at the start of a new round."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="new_round",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__game.html#gaa75c9d43139b8a434e578814a98d59a0",tooltip="Function which readies the game for a new round."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="game_loop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__game.html#gabc9e0c89439f64104e8d4327028355d1",tooltip="Core gameplay loop."];
+  Node8 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="projectile_col",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__logic.html#ga7fc5c540ef2780a6dbd4b90bbab93a5d",tooltip="Checks for player projectiles colisions, and destroys the objects involved."];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

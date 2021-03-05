@@ -1,0 +1,6 @@
+<map id="close_menu" name="close_menu">
+<area shape="rect" id="node1" title="Closes the menu." alt="" coords="360,31,452,57"/>
+<area shape="rect" id="node2" href="$group__menu.html#gafa75f0c9a8c13c16b4a2fe980852662b" title="Handles the data received from the keyboard interrupts, during the game." alt="" coords="172,5,303,32"/>
+<area shape="rect" id="node4" href="$group__menu.html#ga01c5f325cd0f8fc4d0802cde13b5b185" title="Handles the data received from the mouse interrupts, during the game." alt="" coords="163,56,312,83"/>
+<area shape="rect" id="node3" href="$proj_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,31,115,57"/>
+</map>

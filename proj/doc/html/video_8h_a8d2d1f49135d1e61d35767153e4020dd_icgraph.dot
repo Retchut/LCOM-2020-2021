@@ -1,0 +1,34 @@
+digraph "update_vram"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="update_vram",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Updates the video ram."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="draw_highscore_data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sprite_8h.html#a783d013e6c9f448ba5a7fff78fdf0edf",tooltip="Draws the highscore data on the background buffer."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="draw_highscore_background",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sprite_8h.html#ab860f4d0de8b51748e40d579c48e31dc",tooltip="Draws the highscore background on the background buffer."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="prepare_highscore_menu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$highscore_8c.html#af2a9268e3705ab4d2bb5fbb6b8c409fa",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="proj_main_loop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$proj_8c.html#a2a16f651eccbd248e1ad3b3b924b143b",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="draw_new_name",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__highscore.html#ga45bec8d688b782490a7c8dd218d29ce6",tooltip="Draws the name the player is editing on the double buffer."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="new_highscore_loop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__highscore.html#ga91fd736c399b051bdda3624b04ce58f3",tooltip="Draws the non-static new highscore menu images."];
+  Node7 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="game_loop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__game.html#gabc9e0c89439f64104e8d4327028355d1",tooltip="Core gameplay loop."];
+  Node8 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="highscore_menu_loop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__highscore.html#ga81c8da21606141d6fa9ab8ba339d2e9d",tooltip="Menu loop."];
+  Node9 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="menu_loop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__menu.html#ga2948469e49121c2d7d00c5253807723d",tooltip="Menu loop."];
+  Node10 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="new_round",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__game.html#gaa75c9d43139b8a434e578814a98d59a0",tooltip="Function which readies the game for a new round."];
+  Node11 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

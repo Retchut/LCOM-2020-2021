@@ -1,0 +1,5 @@
+<map id="draw_menu_background" name="draw_menu_background">
+<area shape="rect" id="node1" title="Draws the menu background on the background buffer." alt="" coords="315,5,477,32"/>
+<area shape="rect" id="node2" href="$group__menu.html#ga98e1e6e350ea10b0f235bec0f0c1ed4e" title="Prepares the menu." alt="" coords="163,5,267,32"/>
+<area shape="rect" id="node3" href="$proj_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,5,115,32"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="destroy_all_projectiles" name="destroy_all_projectiles">
+<area shape="rect" id="node1" title="Destroys ALL projectiles, both the player&#39;s and the enemies&#39;." alt="" coords="5,31,156,57"/>
+<area shape="rect" id="node2" href="$group__logic.html#ga5097d393ba2a86415f75072aeafa9388" title="Destroys one enemy projectile object." alt="" coords="204,5,375,32"/>
+<area shape="rect" id="node3" href="$group__logic.html#ga01406d4043226eaa8b6fdeb9cea292ef" title="Destroys one player projectile object." alt="" coords="206,56,373,83"/>
+</map>

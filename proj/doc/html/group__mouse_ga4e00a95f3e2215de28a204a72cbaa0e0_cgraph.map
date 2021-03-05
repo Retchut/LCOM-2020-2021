@@ -1,0 +1,5 @@
+<map id="ms_issue_arg_command" name="ms_issue_arg_command">
+<area shape="rect" id="node1" title="Issues the argument command specified in its first argument." alt="" coords="5,31,172,57"/>
+<area shape="rect" id="node2" href="$group__mouse.html#gae92b7a0449ca14cdbe33c9231f9773df" title="Evaluates whether or not we can write a command to the kbc control register." alt="" coords="220,5,365,32"/>
+<area shape="rect" id="node3" href="$group__utils.html#ga79a031a8611f5b2d6afa4158e92b0fb4" title="Invokes sys_inb() system call but reads the value into a uint8_t variable." alt="" coords="413,31,504,57"/>
+</map>

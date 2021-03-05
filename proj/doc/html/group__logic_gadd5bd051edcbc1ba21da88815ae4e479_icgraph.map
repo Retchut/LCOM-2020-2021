@@ -1,0 +1,5 @@
+<map id="menu_option" name="menu_option">
+<area shape="rect" id="node1" title="Checks if the player pressed the lb of the mouse on top of a button." alt="" coords="360,5,456,32"/>
+<area shape="rect" id="node2" href="$group__menu.html#ga01c5f325cd0f8fc4d0802cde13b5b185" title="Handles the data received from the mouse interrupts, during the game." alt="" coords="163,5,312,32"/>
+<area shape="rect" id="node3" href="$proj_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,5,115,32"/>
+</map>

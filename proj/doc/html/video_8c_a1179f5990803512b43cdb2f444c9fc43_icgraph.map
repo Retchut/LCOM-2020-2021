@@ -1,0 +1,4 @@
+<map id="graphics_init" name="graphics_init">
+<area shape="rect" id="node1" title="Initializes the video module in mode 0x115 using a linear frame buffer, and maps VRAM to the process&#39;..." alt="" coords="163,5,257,32"/>
+<area shape="rect" id="node2" href="$proj_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,5,115,32"/>
+</map>

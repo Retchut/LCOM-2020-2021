@@ -1,0 +1,17 @@
+digraph "move_enemy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="move_enemy",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Moves a single enemy, according to the parameters passed to the function."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="move_all_enemies",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__logic.html#gaacba12e9b32ddb197f73da23d17872f6",tooltip="Moves all enemies, according to the parameters passed to the function."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="game_loop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__game.html#gabc9e0c89439f64104e8d4327028355d1",tooltip="Core gameplay loop."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="proj_main_loop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$proj_8c.html#a2a16f651eccbd248e1ad3b3b924b143b",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="move_special",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__logic.html#gafefc03cd27ef8904a326460ab9588227",tooltip="Moves the special enemy, according to the parameter passed to the function."];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

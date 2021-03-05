@@ -1,0 +1,5 @@
+<map id="read_time" name="read_time">
+<area shape="rect" id="node1" title="Reads the time." alt="" coords="5,5,84,32"/>
+<area shape="rect" id="node2" href="$group__rtc.html#gaeb22f43773d6e29365a07f7f847dfbb9" title="Reads data from one register." alt="" coords="132,5,251,32"/>
+<area shape="rect" id="node3" href="$group__utils.html#ga79a031a8611f5b2d6afa4158e92b0fb4" title="Invokes sys_inb() system call but reads the value into a uint8_t variable." alt="" coords="299,5,389,32"/>
+</map>

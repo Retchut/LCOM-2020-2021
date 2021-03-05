@@ -1,0 +1,7 @@
+<map id="draw_hs_score" name="draw_hs_score">
+<area shape="rect" id="node1" title="Draws the highscore score on the background buffer." alt="" coords="804,5,913,32"/>
+<area shape="rect" id="node2" href="$sprite_8h.html#a783d013e6c9f448ba5a7fff78fdf0edf" title="Draws the highscore data on the background buffer." alt="" coords="612,5,756,32"/>
+<area shape="rect" id="node3" href="$sprite_8h.html#ab860f4d0de8b51748e40d579c48e31dc" title="Draws the highscore background on the background buffer." alt="" coords="377,5,564,32"/>
+<area shape="rect" id="node4" href="$highscore_8c.html#af2a9268e3705ab4d2bb5fbb6b8c409fa" title=" " alt="" coords="163,5,329,32"/>
+<area shape="rect" id="node5" href="$proj_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,5,115,32"/>
+</map>

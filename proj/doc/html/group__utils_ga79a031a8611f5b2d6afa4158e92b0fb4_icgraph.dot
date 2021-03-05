@@ -1,0 +1,34 @@
+digraph "util_sys_inb"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="util_sys_inb",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Invokes sys_inb() system call but reads the value into a uint8_t variable."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="can_write_to_ctrl_reg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__mouse.html#gae92b7a0449ca14cdbe33c9231f9773df",tooltip="Evaluates whether or not we can write a command to the kbc control register."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ms_issue_arg_command",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__mouse.html#ga4e00a95f3e2215de28a204a72cbaa0e0",tooltip="Issues the argument command specified in its first argument."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ms_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__mouse.html#ga6c3d7de7388f78fb9bb418eca81d5b90",tooltip="Enables mouse data reporting and subscribes mouse interrupts."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="proj_main_loop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$proj_8c.html#a2a16f651eccbd248e1ad3b3b924b143b",tooltip=" "];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ms_reset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__mouse.html#gae753ea2d9a9e19173682cf712f85b21c",tooltip="Disables mouse data reporting, and unsubscribes mouse interrupts."];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="kbc_ih",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__keyboard.html#gaea970a154161a35f6894898a092ed70a",tooltip="Keyboard input handler."];
+  Node7 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="mouse_ih",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__mouse.html#ga210374b50462acdedab00df64d5cea3c",tooltip="Mouse input handler."];
+  Node8 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="mouse_read_discard",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__mouse.html#gaab3aade1156c57ff5777fd9180089332",tooltip=" "];
+  Node9 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="rtc_read_register",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__rtc.html#gaeb22f43773d6e29365a07f7f847dfbb9",tooltip="Reads data from one register."];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="read_time",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__rtc.html#ga0b2f91cff37f2c0b95d4124464a96848",tooltip="Reads the time."];
+  Node11 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

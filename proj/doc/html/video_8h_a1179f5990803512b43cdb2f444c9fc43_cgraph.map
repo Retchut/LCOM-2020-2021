@@ -1,0 +1,4 @@
+<map id="graphics_init" name="graphics_init">
+<area shape="rect" id="node1" title="Initializes the video module in mode 0x115 using a linear frame buffer, and maps VRAM to the process&#39;..." alt="" coords="5,5,100,32"/>
+<area shape="rect" id="node2" href="$vbe__funcs_8c.html#a8b051afe89cc2c92d9d711e85a91def4" title="Gets the information of a mode, and stores said information in the vbe_mode_info_t struct." alt="" coords="148,5,255,32"/>
+</map>

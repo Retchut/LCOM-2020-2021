@@ -1,0 +1,12 @@
+digraph "draw_player"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="draw_player",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Draws the player on the buffer used for double buffering."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="draw_xpm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sprite_8c.html#a432d4502a05a1025f30948e4dbcd88b2",tooltip="Draws an xpm according to some parameters."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="draw_pixel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$video_8c.html#ac4898edce27b7b51b297128384e113be",tooltip="//Function which draws one pixel on the screen with the desired color, in the desired buffer"];
+}

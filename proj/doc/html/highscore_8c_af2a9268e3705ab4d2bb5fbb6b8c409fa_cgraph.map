@@ -1,0 +1,12 @@
+<map id="prepare_highscore_menu" name="prepare_highscore_menu">
+<area shape="rect" id="node1" title=" " alt="" coords="5,208,172,235"/>
+<area shape="rect" id="node2" href="$sprite_8c.html#ab860f4d0de8b51748e40d579c48e31dc" title="Draws the highscore background on the background buffer." alt="" coords="220,208,407,235"/>
+<area shape="rect" id="node3" href="$sprite_8c.html#a783d013e6c9f448ba5a7fff78fdf0edf" title="Draws the highscore data on the background buffer." alt="" coords="455,132,599,159"/>
+<area shape="rect" id="node6" href="$sprite_8c.html#a432d4502a05a1025f30948e4dbcd88b2" title="Draws an xpm according to some parameters." alt="" coords="851,132,932,159"/>
+<area shape="rect" id="node4" href="$video_8c.html#aa10a93096da9f1f757aca38328a738ce" title="Copies the background buffer&#39;s contents into the double buffer." alt="" coords="647,5,803,32"/>
+<area shape="rect" id="node5" href="$sprite_8c.html#a09b46973bae08863f288cde6bdb6e7bc" title="Draws a highscore name on the background buffer." alt="" coords="670,56,779,83"/>
+<area shape="rect" id="node8" href="$sprite_8c.html#a72d10af255c271fa6dfb67f32db16539" title="Draws the highscore score on the background buffer." alt="" coords="670,107,779,133"/>
+<area shape="rect" id="node9" href="$sprite_8c.html#a68b885c41bd03e5e715cdf72de1f9d5d" title="Draws the highscore time on the background buffer." alt="" coords="673,157,776,184"/>
+<area shape="rect" id="node10" href="$video_8c.html#a8d2d1f49135d1e61d35767153e4020dd" title="Updates the video ram." alt="" coords="677,208,772,235"/>
+<area shape="rect" id="node7" href="$video_8c.html#ac4898edce27b7b51b297128384e113be" title="//Function which draws one pixel on the screen with the desired color, in the desired buffer" alt="" coords="980,132,1063,159"/>
+</map>

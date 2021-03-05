@@ -1,0 +1,7 @@
+<map id="ms_init" name="ms_init">
+<area shape="rect" id="node1" title="Enables mouse data reporting and subscribes mouse interrupts." alt="" coords="5,56,69,83"/>
+<area shape="rect" id="node2" href="$group__mouse.html#ga4e00a95f3e2215de28a204a72cbaa0e0" title="Issues the argument command specified in its first argument." alt="" coords="117,31,284,57"/>
+<area shape="rect" id="node5" href="$group__mouse.html#gaabd8b9a5c25ac6e5435d98c7503c3063" title="Subscribes mouse interrupts." alt="" coords="139,81,263,108"/>
+<area shape="rect" id="node3" href="$group__mouse.html#gae92b7a0449ca14cdbe33c9231f9773df" title="Evaluates whether or not we can write a command to the kbc control register." alt="" coords="332,5,477,32"/>
+<area shape="rect" id="node4" href="$group__utils.html#ga79a031a8611f5b2d6afa4158e92b0fb4" title="Invokes sys_inb() system call but reads the value into a uint8_t variable." alt="" coords="525,31,616,57"/>
+</map>

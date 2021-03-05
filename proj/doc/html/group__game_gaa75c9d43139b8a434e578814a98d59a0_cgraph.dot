@@ -1,0 +1,56 @@
+digraph "new_round"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="new_round",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Function which readies the game for a new round."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="draw_game_objects",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sprite_8c.html#acfafa3060615cd19b63f120800dc4075",tooltip="Function which copies the background buffer contents to the double buffer, then draws all other objec..."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="copy_from_background",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$video_8c.html#aa10a93096da9f1f757aca38328a738ce",tooltip="Copies the background buffer's contents into the double buffer."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="draw_all_enemies",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sprite_8c.html#a17df74fc56592ea32ba9897729a7b090",tooltip="Draws each enemy on the buffer used for double buffering."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="draw_special",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sprite_8c.html#a48c90844a3cc28d10ebca5a4f10e65ff",tooltip="Draws the special enemy on the double buffer."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="draw_xpm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sprite_8c.html#a432d4502a05a1025f30948e4dbcd88b2",tooltip="Draws an xpm according to some parameters."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="draw_pixel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$video_8c.html#ac4898edce27b7b51b297128384e113be",tooltip="//Function which draws one pixel on the screen with the desired color, in the desired buffer"];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="draw_cursor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sprite_8c.html#ac5279c7b71c8b9f1b5c69316b3996715",tooltip="Draws the cursor on the buffer used for double buffering."];
+  Node8 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="draw_player",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sprite_8c.html#ad3691991b3af52e1fbf2b67ed919e920",tooltip="Draws the player on the buffer used for double buffering."];
+  Node9 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="draw_projectiles",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sprite_8c.html#afc9432e73a9ed57e9e356605107661a8",tooltip="Draws all projectiles on the screen on the buffer used for double buffering."];
+  Node10 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="draw_ui",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sprite_8c.html#aec01f7936176a3356635ef01f3e85da5",tooltip="Draws all ui elements of points the player has."];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="draw_ammo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sprite_8c.html#a37d1cf38342a34072658d27bef62cd1b",tooltip="Draws the number of ammunition the player has."];
+  Node12 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="draw_hp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sprite_8c.html#ad494b8ee69e0aef00320005935fedeb1",tooltip="Draws the number of hp the player has."];
+  Node13 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="draw_points",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sprite_8c.html#abacc35b08c33459ead447cb06d4afe1d",tooltip="Draws the number of points the player has."];
+  Node14 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="reset_gamestate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__logic.html#gabbe8693d65d761175dbd75760c0fea67",tooltip="Function that resets the game at the start of a new round."];
+  Node15 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="destroy_all_projectiles",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__logic.html#ga73e46dd719da8627bba53a3779545255",tooltip="Destroys ALL projectiles, both the player's and the enemies'."];
+  Node16 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="destroy_enemy_projectile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__logic.html#ga5097d393ba2a86415f75072aeafa9388",tooltip="Destroys one enemy projectile object."];
+  Node16 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="destroy_player_projectile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__logic.html#ga01406d4043226eaa8b6fdeb9cea292ef",tooltip="Destroys one player projectile object."];
+  Node15 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="generate_enemies",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__logic.html#gab6633ecc352d296a27e6b975043c86bf",tooltip="Initializes the enemy array, with the correct values for each object."];
+  Node19 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="create_enemy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__logic.html#gaeaa48a43dfc8592a47c63e08de926ef1",tooltip="Creates an enemy object based on some parameters, dinamically alocating memory, and returns a pointer..."];
+  Node1 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="update_vram",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$video_8c.html#a8d2d1f49135d1e61d35767153e4020dd",tooltip="Updates the video ram."];
+}

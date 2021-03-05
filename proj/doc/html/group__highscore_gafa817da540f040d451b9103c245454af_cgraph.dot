@@ -1,0 +1,16 @@
+digraph "prepare_new_highscore"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="prepare_new_highscore",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Prepares the new_highscore screen."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="copy_to_background",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$video_8c.html#a04449b61f20424e58ede9a4982149369",tooltip="Copies the double buffer's contents into the background buffer."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="draw_new_highscore\l_screen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sprite_8c.html#a65000727898c8c9c6980969973e82213",tooltip="Draws the new highscore screen on the background buffer."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="draw_xpm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sprite_8c.html#a432d4502a05a1025f30948e4dbcd88b2",tooltip="Draws an xpm according to some parameters."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="draw_pixel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$video_8c.html#ac4898edce27b7b51b297128384e113be",tooltip="//Function which draws one pixel on the screen with the desired color, in the desired buffer"];
+}

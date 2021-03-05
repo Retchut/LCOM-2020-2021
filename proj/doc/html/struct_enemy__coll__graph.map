@@ -1,0 +1,4 @@
+<map id="Enemy" name="Enemy">
+<area shape="rect" id="node1" title="Struct that holds an enemy&#39;s data." alt="" coords="5,109,68,136"/>
+<area shape="rect" id="node2" href="$struct_image.html" title="Struct that holds an image&#39;s information and color map." alt="" coords="8,5,65,32"/>
+</map>

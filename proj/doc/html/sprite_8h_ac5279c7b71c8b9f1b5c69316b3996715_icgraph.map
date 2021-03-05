@@ -1,0 +1,10 @@
+<map id="draw_cursor" name="draw_cursor">
+<area shape="rect" id="node1" title="Draws the cursor on the buffer used for double buffering." alt="" coords="688,71,780,98"/>
+<area shape="rect" id="node2" href="$sprite_8h.html#acfafa3060615cd19b63f120800dc4075" title="Function which copies the background buffer contents to the double buffer, then draws all other objec..." alt="" coords="497,20,635,47"/>
+<area shape="rect" id="node6" href="$sprite_8h.html#afd7981c8544caa64d14e2aed014840b1" title="Draws the menu elements on the double buffer." alt="" coords="492,71,640,98"/>
+<area shape="rect" id="node8" href="$group__highscore.html#ga81c8da21606141d6fa9ab8ba339d2e9d" title="Menu loop." alt="" coords="163,122,311,148"/>
+<area shape="rect" id="node3" href="$group__game.html#gabc9e0c89439f64104e8d4327028355d1" title="Core gameplay loop." alt="" coords="194,20,279,47"/>
+<area shape="rect" id="node5" href="$group__game.html#gaa75c9d43139b8a434e578814a98d59a0" title="Function which readies the game for a new round." alt="" coords="359,20,443,47"/>
+<area shape="rect" id="node4" href="$proj_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,71,115,98"/>
+<area shape="rect" id="node7" href="$group__menu.html#ga2948469e49121c2d7d00c5253807723d" title="Menu loop." alt="" coords="359,71,444,98"/>
+</map>

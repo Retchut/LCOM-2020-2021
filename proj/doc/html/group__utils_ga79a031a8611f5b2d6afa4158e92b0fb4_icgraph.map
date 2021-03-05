@@ -1,0 +1,13 @@
+<map id="util_sys_inb" name="util_sys_inb">
+<area shape="rect" id="node1" title="Invokes sys_inb() system call but reads the value into a uint8_t variable." alt="" coords="695,107,785,134"/>
+<area shape="rect" id="node2" href="$group__mouse.html#gae92b7a0449ca14cdbe33c9231f9773df" title="Evaluates whether or not we can write a command to the kbc control register." alt="" coords="501,82,647,108"/>
+<area shape="rect" id="node3" href="$group__mouse.html#ga4e00a95f3e2215de28a204a72cbaa0e0" title="Issues the argument command specified in its first argument." alt="" coords="287,82,453,108"/>
+<area shape="rect" id="node7" href="$group__keyboard.html#gaea970a154161a35f6894898a092ed70a" title="Keyboard input handler." alt="" coords="171,6,231,32"/>
+<area shape="rect" id="node8" href="$group__mouse.html#ga210374b50462acdedab00df64d5cea3c" title="Mouse input handler." alt="" coords="331,183,409,210"/>
+<area shape="rect" id="node9" href="$group__mouse.html#gaab3aade1156c57ff5777fd9180089332" title=" " alt="" coords="503,132,645,159"/>
+<area shape="rect" id="node10" href="$group__rtc.html#gaeb22f43773d6e29365a07f7f847dfbb9" title="Reads data from one register." alt="" coords="515,234,633,260"/>
+<area shape="rect" id="node4" href="$group__mouse.html#ga6c3d7de7388f78fb9bb418eca81d5b90" title="Enables mouse data reporting and subscribes mouse interrupts." alt="" coords="169,82,233,108"/>
+<area shape="rect" id="node6" href="$group__mouse.html#gae753ea2d9a9e19173682cf712f85b21c" title="Disables mouse data reporting, and unsubscribes mouse interrupts." alt="" coords="163,132,239,159"/>
+<area shape="rect" id="node5" href="$proj_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,132,115,159"/>
+<area shape="rect" id="node11" href="$group__rtc.html#ga0b2f91cff37f2c0b95d4124464a96848" title="Reads the time." alt="" coords="331,234,409,260"/>
+</map>

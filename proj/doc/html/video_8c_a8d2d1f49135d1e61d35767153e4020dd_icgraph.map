@@ -1,0 +1,13 @@
+<map id="update_vram" name="update_vram">
+<area shape="rect" id="node1" title="Updates the video ram." alt="" coords="804,157,899,184"/>
+<area shape="rect" id="node2" href="$sprite_8h.html#a783d013e6c9f448ba5a7fff78fdf0edf" title="Draws the highscore data on the background buffer." alt="" coords="612,5,756,32"/>
+<area shape="rect" id="node6" href="$group__highscore.html#ga45bec8d688b782490a7c8dd218d29ce6" title="Draws the name the player is editing on the double buffer." alt="" coords="625,56,743,83"/>
+<area shape="rect" id="node7" href="$group__highscore.html#ga91fd736c399b051bdda3624b04ce58f3" title="Draws the non&#45;static new highscore menu images." alt="" coords="401,107,540,133"/>
+<area shape="rect" id="node8" href="$group__game.html#gabc9e0c89439f64104e8d4327028355d1" title="Core gameplay loop." alt="" coords="428,164,513,191"/>
+<area shape="rect" id="node9" href="$group__highscore.html#ga81c8da21606141d6fa9ab8ba339d2e9d" title="Menu loop." alt="" coords="172,227,320,253"/>
+<area shape="rect" id="node10" href="$group__menu.html#ga2948469e49121c2d7d00c5253807723d" title="Menu loop." alt="" coords="203,303,289,329"/>
+<area shape="rect" id="node11" href="$group__game.html#gaa75c9d43139b8a434e578814a98d59a0" title="Function which readies the game for a new round." alt="" coords="642,208,726,235"/>
+<area shape="rect" id="node3" href="$sprite_8h.html#ab860f4d0de8b51748e40d579c48e31dc" title="Draws the highscore background on the background buffer." alt="" coords="377,19,564,45"/>
+<area shape="rect" id="node4" href="$highscore_8c.html#af2a9268e3705ab4d2bb5fbb6b8c409fa" title=" " alt="" coords="163,31,329,57"/>
+<area shape="rect" id="node5" href="$proj_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,164,115,191"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="destroy_all_game_entities" name="destroy_all_game_entities">
+<area shape="rect" id="node1" title="Destroys ALL game entities, and frees their memory." alt="" coords="293,5,467,32"/>
+<area shape="rect" id="node2" href="$group__game.html#ga4202fa5c5191c7e387d7570da6c8cd8c" title="Ends the game." alt="" coords="163,5,245,32"/>
+<area shape="rect" id="node3" href="$proj_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,5,115,32"/>
+</map>

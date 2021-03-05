@@ -1,0 +1,4 @@
+<map id="generate_enemies" name="generate_enemies">
+<area shape="rect" id="node1" title="Initializes the enemy array, with the correct values for each object." alt="" coords="5,5,133,32"/>
+<area shape="rect" id="node2" href="$group__logic.html#gaeaa48a43dfc8592a47c63e08de926ef1" title="Creates an enemy object based on some parameters, dinamically alocating memory, and returns a pointer..." alt="" coords="181,5,285,32"/>
+</map>

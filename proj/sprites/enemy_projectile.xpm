@@ -1,0 +1,23 @@
+/* XPM */
+static xpm_row_t const enemy_projectile[] = {
+/* columns rows colors chars-per-pixel */
+"2 16 1 1 ",
+"  c #E624BD",
+/* pixels */
+"  ",
+"  ",
+"  ",
+"  ",
+"  ",
+"  ",
+"  ",
+"  ",
+"  ",
+"  ",
+"  ",
+"  ",
+"  ",
+"  ",
+"  ",
+"  "
+};

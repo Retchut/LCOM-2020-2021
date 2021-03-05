@@ -1,0 +1,14 @@
+digraph "add_player_projectile"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="add_player_projectile",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Creates a Player_projectile object, and adds it to player_projectiles."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="shoot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__logic.html#ga11e11a24b8eea7952c31294bbfd74435",tooltip="Shoots towards the current cursor positions."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="game_mouse_handler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__game.html#gaa173529ea663e9626818306c44dc5f8d",tooltip="Handles the data received from the mouse interrupts, during the game."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="proj_main_loop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$proj_8c.html#a2a16f651eccbd248e1ad3b3b924b143b",tooltip=" "];
+}

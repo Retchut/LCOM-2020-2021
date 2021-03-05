@@ -1,0 +1,5 @@
+<map id="add_player_projectile" name="add_player_projectile">
+<area shape="rect" id="node1" title="Creates a Player_projectile object, and adds it to player_projectiles." alt="" coords="5,5,149,32"/>
+<area shape="rect" id="node2" href="$logic_8c.html#ac441ef521d53011e6bcfc87dbc2d7d4d" title=" " alt="" coords="197,5,356,32"/>
+<area shape="rect" id="node3" href="$group__logic.html#ga085bf19daa3d4c04caef2c3190e140fa" title="Generates the Player_projectile&#39;s array of points." alt="" coords="404,5,577,32"/>
+</map>

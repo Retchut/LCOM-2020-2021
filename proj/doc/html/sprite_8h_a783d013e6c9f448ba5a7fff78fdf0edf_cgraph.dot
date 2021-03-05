@@ -1,0 +1,24 @@
+digraph "draw_highscore_data"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="draw_highscore_data",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Draws the highscore data on the background buffer."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="copy_from_background",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$video_8c.html#aa10a93096da9f1f757aca38328a738ce",tooltip="Copies the background buffer's contents into the double buffer."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="draw_hs_name",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sprite_8c.html#a09b46973bae08863f288cde6bdb6e7bc",tooltip="Draws a highscore name on the background buffer."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="draw_xpm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sprite_8c.html#a432d4502a05a1025f30948e4dbcd88b2",tooltip="Draws an xpm according to some parameters."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="draw_pixel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$video_8c.html#ac4898edce27b7b51b297128384e113be",tooltip="//Function which draws one pixel on the screen with the desired color, in the desired buffer"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="draw_hs_score",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sprite_8c.html#a72d10af255c271fa6dfb67f32db16539",tooltip="Draws the highscore score on the background buffer."];
+  Node6 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="draw_hs_time",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sprite_8c.html#a68b885c41bd03e5e715cdf72de1f9d5d",tooltip="Draws the highscore time on the background buffer."];
+  Node7 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="update_vram",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$video_8c.html#a8d2d1f49135d1e61d35767153e4020dd",tooltip="Updates the video ram."];
+}
