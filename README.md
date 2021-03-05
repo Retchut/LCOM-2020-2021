@@ -6,5 +6,6 @@ It contains most exercises from the lab classes, and the final project, along wi
 The project is an homage to the classic 1978 arcade game Space Invaders, created by 西角友宏 (Tomohiro Nishikado).
 
 A demonstration for the project can be found at https://youtu.be/-UOf-P46CHo.
+
 All pixel art was drawn manually (albeit quite poorly, I must admit) by me using GIMP, and I also wrote all the code (a simple version of Bresenham's line algorithm was appropriated from http://members.chello.at/~easyfilter/bresenham.html for use with the game, however).
 To run this, one needs to have installed LCOM's MINIX image.
