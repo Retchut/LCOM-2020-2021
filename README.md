@@ -11,3 +11,5 @@ All pixel art was drawn manually (albeit quite poorly, I must admit) by me using
 To run this, one needs to have installed LCOM's MINIX image.
 
 The project's documentation can be found in proj/doc, the sprites in proj/sprites, and the source code in proj/src.
+
+My project's final grade was 19.34
