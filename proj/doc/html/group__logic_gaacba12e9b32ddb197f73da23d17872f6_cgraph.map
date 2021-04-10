@@ -1,4 +1,0 @@
-<map id="move_all_enemies" name="move_all_enemies">
-<area shape="rect" id="node1" title="Moves all enemies, according to the parameters passed to the function." alt="" coords="5,5,133,32"/>
-<area shape="rect" id="node2" href="$group__logic.html#gab627b7bd210cd021e9cb4886c45fd31c" title="Moves a single enemy, according to the parameters passed to the function." alt="" coords="181,5,280,32"/>
-</map>

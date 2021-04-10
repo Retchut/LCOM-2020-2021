@@ -1,5 +1,0 @@
-<map id="menu_mouse_handler" name="menu_mouse_handler">
-<area shape="rect" id="node1" title="Handles the data received from the mouse interrupts, during the game." alt="" coords="5,31,155,57"/>
-<area shape="rect" id="node2" href="$group__menu.html#gac8bcb2255709a4442dafba681afd419d" title="Closes the menu." alt="" coords="205,5,297,32"/>
-<area shape="rect" id="node3" href="$group__logic.html#gadd5bd051edcbc1ba21da88815ae4e479" title="Checks if the player pressed the lb of the mouse on top of a button." alt="" coords="203,56,299,83"/>
-</map>

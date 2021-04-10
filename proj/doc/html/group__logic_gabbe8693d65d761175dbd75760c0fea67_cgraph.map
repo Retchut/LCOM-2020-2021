@@ -1,8 +1,0 @@
-<map id="reset_gamestate" name="reset_gamestate">
-<area shape="rect" id="node1" title="Function that resets the game at the start of a new round." alt="" coords="5,81,124,108"/>
-<area shape="rect" id="node2" href="$group__logic.html#ga73e46dd719da8627bba53a3779545255" title="Destroys ALL projectiles, both the player&#39;s and the enemies&#39;." alt="" coords="172,56,323,83"/>
-<area shape="rect" id="node5" href="$group__logic.html#gab6633ecc352d296a27e6b975043c86bf" title="Initializes the enemy array, with the correct values for each object." alt="" coords="183,107,311,133"/>
-<area shape="rect" id="node3" href="$group__logic.html#ga5097d393ba2a86415f75072aeafa9388" title="Destroys one enemy projectile object." alt="" coords="371,5,541,32"/>
-<area shape="rect" id="node4" href="$group__logic.html#ga01406d4043226eaa8b6fdeb9cea292ef" title="Destroys one player projectile object." alt="" coords="373,56,539,83"/>
-<area shape="rect" id="node6" href="$group__logic.html#gaeaa48a43dfc8592a47c63e08de926ef1" title="Creates an enemy object based on some parameters, dinamically alocating memory, and returns a pointer..." alt="" coords="404,107,508,133"/>
-</map>

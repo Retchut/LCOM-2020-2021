@@ -1,4 +1,0 @@
-<map id="mouse_ih" name="mouse_ih">
-<area shape="rect" id="node1" title="Mouse input handler." alt="" coords="5,5,84,32"/>
-<area shape="rect" id="node2" href="$group__utils.html#ga79a031a8611f5b2d6afa4158e92b0fb4" title="Invokes sys_inb() system call but reads the value into a uint8_t variable." alt="" coords="132,5,223,32"/>
-</map>

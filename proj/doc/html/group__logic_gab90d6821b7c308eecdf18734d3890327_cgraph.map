@@ -1,5 +1,0 @@
-<map id="move_all_projectiles" name="move_all_projectiles">
-<area shape="rect" id="node1" title="Moves all projectiles." alt="" coords="5,31,144,57"/>
-<area shape="rect" id="node2" href="$group__logic.html#ga1a9e89f68d07ac5fdb0fd5072715993a" title="Moves a single projectile." alt="" coords="192,5,349,32"/>
-<area shape="rect" id="node3" href="$group__logic.html#ga9e1cbec04eea806d8d5b0c4b2b4e56e8" title="Moves a single projectile." alt="" coords="194,56,347,83"/>
-</map>

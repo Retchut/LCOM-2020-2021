@@ -1,4 +1,0 @@
-<map id="draw_xpm" name="draw_xpm">
-<area shape="rect" id="node1" title="Draws an xpm according to some parameters." alt="" coords="5,5,87,32"/>
-<area shape="rect" id="node2" href="$video_8c.html#ac4898edce27b7b51b297128384e113be" title="//Function which draws one pixel on the screen with the desired color, in the desired buffer" alt="" coords="135,5,217,32"/>
-</map>

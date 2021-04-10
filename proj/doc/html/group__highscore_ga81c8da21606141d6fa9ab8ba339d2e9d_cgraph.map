@@ -1,8 +1,0 @@
-<map id="highscore_menu_loop" name="highscore_menu_loop">
-<area shape="rect" id="node1" title="Menu loop." alt="" coords="5,56,153,83"/>
-<area shape="rect" id="node2" href="$video_8c.html#aa10a93096da9f1f757aca38328a738ce" title="Copies the background buffer&#39;s contents into the double buffer." alt="" coords="201,5,357,32"/>
-<area shape="rect" id="node3" href="$sprite_8c.html#ac5279c7b71c8b9f1b5c69316b3996715" title="Draws the cursor on the buffer used for double buffering." alt="" coords="233,56,325,83"/>
-<area shape="rect" id="node6" href="$video_8c.html#a8d2d1f49135d1e61d35767153e4020dd" title="Updates the video ram." alt="" coords="232,107,327,133"/>
-<area shape="rect" id="node4" href="$sprite_8c.html#a432d4502a05a1025f30948e4dbcd88b2" title="Draws an xpm according to some parameters." alt="" coords="405,56,487,83"/>
-<area shape="rect" id="node5" href="$video_8c.html#ac4898edce27b7b51b297128384e113be" title="//Function which draws one pixel on the screen with the desired color, in the desired buffer" alt="" coords="535,56,617,83"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="projectile_col" name="projectile_col">
-<area shape="rect" id="node1" title="Checks for player projectiles colisions, and destroys the objects involved." alt="" coords="296,5,395,32"/>
-<area shape="rect" id="node2" href="$group__game.html#gabc9e0c89439f64104e8d4327028355d1" title="Core gameplay loop." alt="" coords="163,5,248,32"/>
-<area shape="rect" id="node3" href="$proj_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,5,115,32"/>
-</map>

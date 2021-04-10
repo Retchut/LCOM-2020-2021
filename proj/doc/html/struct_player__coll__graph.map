@@ -1,4 +1,0 @@
-<map id="Player" name="Player">
-<area shape="rect" id="node1" title="Struct that holds the player&#39;s data." alt="" coords="5,95,64,121"/>
-<area shape="rect" id="node2" href="$struct_image.html" title="Struct that holds an image&#39;s information and color map." alt="" coords="6,5,63,32"/>
-</map>

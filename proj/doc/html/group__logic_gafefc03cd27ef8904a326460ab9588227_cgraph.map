@@ -1,5 +1,0 @@
-<map id="move_special" name="move_special">
-<area shape="rect" id="node1" title="Moves the special enemy, according to the parameter passed to the function." alt="" coords="5,31,105,57"/>
-<area shape="rect" id="node2" href="$group__logic.html#gae1c7475a31993fdd1a9a84af3a95c45c" title="Destroys the special enemy object." alt="" coords="153,5,267,32"/>
-<area shape="rect" id="node3" href="$group__logic.html#gab627b7bd210cd021e9cb4886c45fd31c" title="Moves a single enemy, according to the parameters passed to the function." alt="" coords="161,56,259,83"/>
-</map>

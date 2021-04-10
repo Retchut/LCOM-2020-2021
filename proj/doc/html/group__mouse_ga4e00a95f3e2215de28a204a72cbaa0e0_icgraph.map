@@ -1,6 +1,0 @@
-<map id="ms_issue_arg_command" name="ms_issue_arg_command">
-<area shape="rect" id="node1" title="Issues the argument command specified in its first argument." alt="" coords="287,31,453,57"/>
-<area shape="rect" id="node2" href="$group__mouse.html#ga6c3d7de7388f78fb9bb418eca81d5b90" title="Enables mouse data reporting and subscribes mouse interrupts." alt="" coords="169,5,233,32"/>
-<area shape="rect" id="node4" href="$group__mouse.html#gae753ea2d9a9e19173682cf712f85b21c" title="Disables mouse data reporting, and unsubscribes mouse interrupts." alt="" coords="163,56,239,83"/>
-<area shape="rect" id="node3" href="$proj_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,31,115,57"/>
-</map>

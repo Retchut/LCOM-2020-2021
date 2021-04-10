@@ -1,8 +1,0 @@
-<map id="ms_reset" name="ms_reset">
-<area shape="rect" id="node1" title="Disables mouse data reporting, and unsubscribes mouse interrupts." alt="" coords="5,56,81,83"/>
-<area shape="rect" id="node2" href="$group__mouse.html#gaab3aade1156c57ff5777fd9180089332" title=" " alt="" coords="345,5,488,32"/>
-<area shape="rect" id="node4" href="$group__mouse.html#ga4e00a95f3e2215de28a204a72cbaa0e0" title="Issues the argument command specified in its first argument." alt="" coords="129,56,296,83"/>
-<area shape="rect" id="node6" href="$group__mouse.html#ga8e5e3fbbfdb81d636bb0b502207d259a" title="Unubscribes mouse interrupts." alt="" coords="143,107,282,133"/>
-<area shape="rect" id="node3" href="$group__utils.html#ga79a031a8611f5b2d6afa4158e92b0fb4" title="Invokes sys_inb() system call but reads the value into a uint8_t variable." alt="" coords="537,56,628,83"/>
-<area shape="rect" id="node5" href="$group__mouse.html#gae92b7a0449ca14cdbe33c9231f9773df" title="Evaluates whether or not we can write a command to the kbc control register." alt="" coords="344,107,489,133"/>
-</map>

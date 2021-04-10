@@ -1,6 +1,0 @@
-<map id="sort_highscores" name="sort_highscores">
-<area shape="rect" id="node1" title="Sorts the highscores using a simple bubble sort algorithm." alt="" coords="347,31,461,57"/>
-<area shape="rect" id="node2" href="$group__highscore.html#gaf1e517e7640d958d60a1a1113a2fcdf7" title="Add a new highscore into our highscores arrays." alt="" coords="163,5,299,32"/>
-<area shape="rect" id="node4" href="$group__highscore.html#ga0d3498a34faf1bc4e6902e672b855e7e" title="Loads the highscores from the highscores.txt file." alt="" coords="173,56,289,83"/>
-<area shape="rect" id="node3" href="$proj_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,31,115,57"/>
-</map>

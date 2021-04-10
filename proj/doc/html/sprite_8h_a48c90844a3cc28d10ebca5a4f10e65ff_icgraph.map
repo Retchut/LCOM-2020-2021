@@ -1,8 +1,0 @@
-<map id="draw_special" name="draw_special">
-<area shape="rect" id="node1" title="Draws the special enemy on the double buffer." alt="" coords="787,5,884,32"/>
-<area shape="rect" id="node2" href="$sprite_8h.html#a17df74fc56592ea32ba9897729a7b090" title="Draws each enemy on the buffer used for double buffering." alt="" coords="613,5,739,32"/>
-<area shape="rect" id="node3" href="$sprite_8h.html#acfafa3060615cd19b63f120800dc4075" title="Function which copies the background buffer contents to the double buffer, then draws all other objec..." alt="" coords="428,5,565,32"/>
-<area shape="rect" id="node4" href="$group__game.html#gabc9e0c89439f64104e8d4327028355d1" title="Core gameplay loop." alt="" coords="163,5,248,32"/>
-<area shape="rect" id="node6" href="$group__game.html#gaa75c9d43139b8a434e578814a98d59a0" title="Function which readies the game for a new round." alt="" coords="296,31,380,57"/>
-<area shape="rect" id="node5" href="$proj_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,5,115,32"/>
-</map>

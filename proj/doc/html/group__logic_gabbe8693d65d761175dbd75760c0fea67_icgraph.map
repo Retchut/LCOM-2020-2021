@@ -1,6 +1,0 @@
-<map id="reset_gamestate" name="reset_gamestate">
-<area shape="rect" id="node1" title="Function that resets the game at the start of a new round." alt="" coords="428,5,547,32"/>
-<area shape="rect" id="node2" href="$group__game.html#gaa75c9d43139b8a434e578814a98d59a0" title="Function which readies the game for a new round." alt="" coords="296,5,380,32"/>
-<area shape="rect" id="node3" href="$group__game.html#gabc9e0c89439f64104e8d4327028355d1" title="Core gameplay loop." alt="" coords="163,5,248,32"/>
-<area shape="rect" id="node4" href="$proj_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,5,115,32"/>
-</map>

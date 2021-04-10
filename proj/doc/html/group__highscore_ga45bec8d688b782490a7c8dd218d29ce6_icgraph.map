@@ -1,5 +1,0 @@
-<map id="draw_new_name" name="draw_new_name">
-<area shape="rect" id="node1" title="Draws the name the player is editing on the double buffer." alt="" coords="349,5,468,32"/>
-<area shape="rect" id="node2" href="$group__highscore.html#ga91fd736c399b051bdda3624b04ce58f3" title="Draws the non&#45;static new highscore menu images." alt="" coords="163,5,301,32"/>
-<area shape="rect" id="node3" href="$proj_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,5,115,32"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="move_enemy" name="move_enemy">
-<area shape="rect" id="node1" title="Moves a single enemy, according to the parameters passed to the function." alt="" coords="472,31,571,57"/>
-<area shape="rect" id="node2" href="$group__logic.html#gaacba12e9b32ddb197f73da23d17872f6" title="Moves all enemies, according to the parameters passed to the function." alt="" coords="296,5,424,32"/>
-<area shape="rect" id="node5" href="$group__logic.html#gafefc03cd27ef8904a326460ab9588227" title="Moves the special enemy, according to the parameter passed to the function." alt="" coords="310,56,410,83"/>
-<area shape="rect" id="node3" href="$group__game.html#gabc9e0c89439f64104e8d4327028355d1" title="Core gameplay loop." alt="" coords="163,31,248,57"/>
-<area shape="rect" id="node4" href="$proj_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,31,115,57"/>
-</map>

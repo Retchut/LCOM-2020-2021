@@ -1,7 +1,0 @@
-<map id="create_player_projectile" name="create_player_projectile">
-<area shape="rect" id="node1" title=" " alt="" coords="655,5,813,32"/>
-<area shape="rect" id="node2" href="$group__logic.html#ga101db24846cb41f73876ebf34ea0b791" title="Creates a Player_projectile object, and adds it to player_projectiles." alt="" coords="463,5,607,32"/>
-<area shape="rect" id="node3" href="$group__logic.html#ga11e11a24b8eea7952c31294bbfd74435" title="Shoots towards the current cursor positions." alt="" coords="360,5,415,32"/>
-<area shape="rect" id="node4" href="$group__game.html#gaa173529ea663e9626818306c44dc5f8d" title="Handles the data received from the mouse interrupts, during the game." alt="" coords="163,5,312,32"/>
-<area shape="rect" id="node5" href="$proj_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,5,115,32"/>
-</map>

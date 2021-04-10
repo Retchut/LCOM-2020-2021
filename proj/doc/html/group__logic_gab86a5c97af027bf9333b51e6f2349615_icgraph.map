@@ -1,8 +1,0 @@
-<map id="destroy_enemy" name="destroy_enemy">
-<area shape="rect" id="node1" title="Destroys one enemy object." alt="" coords="517,31,628,57"/>
-<area shape="rect" id="node2" href="$group__logic.html#gad30a209e666eb1154ca7b1a3e6f90b49" title="Destroys ALL game entities, and frees their memory." alt="" coords="296,5,469,32"/>
-<area shape="rect" id="node5" href="$group__logic.html#ga7fc5c540ef2780a6dbd4b90bbab93a5d" title="Checks for player projectiles colisions, and destroys the objects involved." alt="" coords="333,56,432,83"/>
-<area shape="rect" id="node3" href="$group__game.html#ga4202fa5c5191c7e387d7570da6c8cd8c" title="Ends the game." alt="" coords="164,5,247,32"/>
-<area shape="rect" id="node4" href="$proj_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,31,115,57"/>
-<area shape="rect" id="node6" href="$group__game.html#gabc9e0c89439f64104e8d4327028355d1" title="Core gameplay loop." alt="" coords="163,56,248,83"/>
-</map>
