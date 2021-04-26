@@ -12,4 +12,4 @@ To run this, one needs to have installed LCOM's MINIX image.
 
 The project's documentation can be found in proj/doc, the sprites in proj/sprites, and the source code in proj/src.
 
-My project's final grade was 19.34
+My project's final grade was 18/18
